@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: sans-serif;
+        background-color: white;
+        color: rgb(68, 68, 68);
+    }
+    ul{
+        list-style-type: none;
+        margin-right: 50px;
+        overflow: hidden;
+    }
+    nav{
+        padding-top: 20px;
+    }
+    nav li{
+        display: inline;
+        float: right;
+        
+    }
+    nav li a{
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 30px;
+    }
+    .grid1{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+        column-gap: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .grid1item{
+        text-align: center;
+        padding: 10px;
+        border: 4px outset;
+        border-color: white;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: white;
+        column-gap: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .grid2img{
+        /*width: 300px;
+        height: 300px;*/
+    }
+    .grid2item1{
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgb(244, 243, 243);
+        width: 200px;
+        height: 150px;
+        position: relative;
+        box-shadow: 2px 2px 1px;
+        right:-20px;
+        top: -100px;
+    }
+    .unseen{
+        text-align: left;
+        display: block;
+        padding-top: 30px;
+        padding-left: 33%;
+        width: 40%;
+    }
+    .caring{
+        text-align: justify;
+        display: block;
+        padding-top: 150px;
+        padding-bottom: 30px;
+    }
+    .grid3{
+        background-color: rgb(7, 29, 9);
+        padding: 30px;
+        color: white;
+        display: grid;
+        grid-template-columns: 20% 20% 20% auto;
+        column-gap: 100px;
+    }
+    #aboutus{
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    #logoimg{
+        padding-top: 30px;
+        padding-left: 20px;
+        float: left;
+        width: 120px;
+        height: 20px;
+    }
+    #Regnow{
+        background-color: rgb(1, 181, 1);
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    #readmore{
+        color:rgb(1, 181, 1);
+        text-decoration: none;
+    }
+    #lessons{
+        background-color: rgb(244, 242, 242);
+        padding: 70px;
+        border: none;
+    }
+    #img1{
+        float: right;
+    }
+    #para1{
+        text-align: center;
+        width: 40%;
+        padding-left: 30%;
+    }
+    #img2{
+        float: left;
+    }
+    #text1{
+        background-color: white;
+    }
+    #img3{
+        width: 60%;
+    }
+    #txtarea{
+        background-color: rgb(76, 76, 76);
+        border-radius: 20px;
+        color: white;
+    }
+    #imglogo{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+</style>
+<body>
+    <div style="padding-bottom: 10px;">
+        <img id="logoimg" src="logo.png">
+        <nav>
+            
+                <a href=""  id="Regnow" style="float: right;">Register now ></a>
+            <ul>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="lessons">
+        <img id="img1" src="DJCSI Technical Tasks Illustration.png">
+        <h1 style="font-size: 50px;">Lessons and insights</br>from 8 years</h1>
+        <p>Where to grow your business as a photographer: site or social media?</p>
+        <a href="" id="Regnow">Register</a> 
+    </div>
+
+    <h1 style="text-align: center;">Manage your entire community </br>in a single system</h1>
+    <p style="text-align: center;">Who is Nexcent suitable for?</p>
+
+    <div class="grid1">
+        <div class="grid1item">
+            <img src="DJCSI Technical Tasks Icon.png">
+            <h2>Membership Organisations</h2>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+        <div class="grid1item">
+            <img src="DJCSI Technical Tasks Icon (1).png">
+            <h2>National Associations</h2>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+        <div class="grid1item">
+            <img src="DJCSI Technical Tasks Icon (2).png">
+            <h2>Clubs And Groups</h2>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
+        </div>
+    </div>
+    
+    <div class="unseen">
+        <img id="img2" src="rafiki.png">
+        <h2>The unseen of spending three years at Pixelgrade</h2>
+        <p style="text-align: left;">Lorem Ipsum</br></p>
+        <a href="" id="Regnow">Learn More</a>
+    </div>
+    
+    <div class="caring">
+        <h1 style="text-align: center;">Caring is the new marketing</h1>
+        <p id="para1">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.</p>
+    </div>
+
+    <div class="grid2">
+        <div class="grid2img">
+            <img src="DJCSI Technical Tasks Image 18.png">    
+        </div>
+        <div class="grid2img">
+            <img src="DJCSI Technical Tasks Image 19.png">    
+        </div>
+        <div class="grid2img">
+            <img src="DJCSI Technical Tasks Image 20.png">    
+        </div>
+        <div class="grid2item1">
+            <p>Creating Streamlined Safegaurding Processes with OneRen</p>
+            <a href="" id="readmore">Read More </a>
+        </div>
+        <div class="grid2item1">
+            <p>What are your safegaurding responsibilities and how can you manage them?</p>
+            <a href="" id="readmore">Read More </a>
+        </div>
+        <div class="grid2item1">
+            <p>Revamping the Membership Model with Triathlon Australia</p>
+            <a href="" id="readmore">Read More </a>
+        </div>
+    </div>
+
+    <div class="grid3">
+        <div>
+            <img src="logo2.png" id="img3">
+            <p>Copyright @ 2020 Landify UI Kit</br>All rights reserved</p>
+            <a href="" id="href1"><img src="twitterlogo.png"  id="imglogo"></a><a href="" id="href1"><img src="instalogo.png" id="imglogo"></a><a href="" id="href1"><img src="fblogo.png"  id="imglogo"></a><a href="" id="href1"><img src="linkedinlogo.png" id="imglogo"></a>
+        </div>
+        <div>
+            <ul>
+                <li style="padding-bottom: 10px;"><b>Company</b></a></li>
+                <li><a href="" id="aboutus">About us</a></li>
+                <li><a href="" id="aboutus">Blog</a></li>
+                <li><a href="" id="aboutus">Contact us</a></li>
+                <li><a href="" id="aboutus">Testimonials</a></li>
+                <li><a href="" id="aboutus">Pricing</a></li>
+                </ul>
+        </div>
+        <div>
+            <ul>
+                <li style="padding-bottom: 10px;"><b>Support</b></a></li>
+                <li><a href="" id="aboutus">Help center</a></li>
+                <li><a href="" id="aboutus">Terms of service</a></li>
+                <li><a href="" id="aboutus">Legal</a></li>
+                <li><a href="" id="aboutus">Privacy policy</a></li>
+                <li><a href="" id="aboutus">Status</a></li>
+                </ul>
+        </div>
+        <div>
+            <h3>Stay up to date</h3>
+            <textarea id="txtarea">Your email address... </textarea>
+        </div>
+    </div>
+</body>
+</html>
